@@ -1,0 +1,60 @@
+id: REF_DATA_GUIDE
+title: Reference Data Guide
+system: NDS
+component: ref_framework
+
+version: 1.0
+status: normative
+scope: global
+
+ownership:
+  maintainer: Neptunia Media AS
+  owner_role: system_architecture
+  change_policy: restricted
+
+audience:
+  - architects
+  - developers
+  - domain_experts
+  - partners
+
+applies_to:
+  - all_ref_tables
+
+ssot:
+  enabled: true
+  type: policy
+  source_doc: docs/REF_DATA_GUIDE.md
+
+principles:
+  - ref_tables_define_language
+  - stability_over_completeness
+  - human_readable_refs
+  - no_hard_deletes
+  - hierarchical_only_when_meaningful
+  - ssot_only_for_normative_domains
+
+lifecycle:
+  creation:
+    approach: minimal_meaningful_set
+    typical_range: 3-7
+  evolution:
+    method: incremental
+    delete_strategy: deactivate_only
+
+governance:
+  allowed_editors:
+    - system_architect
+    - domain_owner
+  review_required: true
+  review_trigger:
+    - new_ref_domain
+    - ssot_enabled_change
+    - breaking_semantic_change
+
+related_docs:
+  - REF_FRAMEWORK.md
+  - SSOT_POLICY.md
+
+created: 2025-12-24
+last_updated: 2025-12-24
