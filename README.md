@@ -38,3 +38,22 @@ A universal, polymorphic linking engine that connects any entity to any other en
 │   ├── REL_FRAMEWORK.md                    # Relationship Logic & Examples
 │   └── REF_POLICY.yaml                     # Governance Rules
 └── README.md
+```
+### 🚀 Quick Start (Database Init)
+To rebuild the system from scratch:
+
+Build Infrastructure: Run sql/NDS_REF_SCHEMA_...sql
+
+Inject Knowledge: Run sql/NDS_REF_SEED_...sql
+
+Initialize Matrix: Run sql/NDS_REL_SCHEMA_...sql
+
+### 🤝 Governance
+System Owner: Neptunia Media AS (Rune Solberg)
+
+Architect: Level 5 permission required for Schema changes.
+
+Ref Data: Normative changes must be committed to Git first (SSOT).
+
+
+
