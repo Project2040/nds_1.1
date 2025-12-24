@@ -1,0 +1,3299 @@
+[
+{
+    "type": "header",
+    "version": "5.2.3",
+    "comment": "Export to JSON plugin for phpMyAdmin"
+},
+{
+    "type": "database",
+    "name": "info_nett_nonds"
+},
+{
+    "type": "table",
+    "name": "assets_registry",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "client_id": "1",
+    "order_id": "1",
+    "filename": "merkur-democracy-crisis-draft-v1.md",
+    "original_filename": "democracy_crisis.md",
+    "file_type": "text\/markdown",
+    "asset_type": "article",
+    "storage_url": "s3:\/\/neptunia-assets\/2025\/01\/merkur-democracy-crisis-draft-v1.md",
+    "file_size_bytes": "15384",
+    "version": "1",
+    "is_latest": "0",
+    "checksum": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+    "title": "Democracy in Crisis - Draft",
+    "description": "Initial draft for Merkur editorial",
+    "metadata": null,
+    "tags": null,
+    "uploaded_by": "claude-sonnet-4.5",
+    "created_at": "2025-12-21 06:27:13",
+    "updated_at": "2025-12-21 06:27:13",
+    "is_deleted": "0",
+    "deleted_at": null
+},
+{
+    "id": "2",
+    "client_id": "1",
+    "order_id": "1",
+    "filename": "merkur-democracy-crisis-final-v2.md",
+    "original_filename": "democracy_crisis_refined.md",
+    "file_type": "text\/markdown",
+    "asset_type": "article",
+    "storage_url": "s3:\/\/neptunia-assets\/2025\/01\/merkur-democracy-crisis-final-v2.md",
+    "file_size_bytes": "18720",
+    "version": "2",
+    "is_latest": "1",
+    "checksum": "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7",
+    "title": "Democracy in Crisis - Final",
+    "description": "Refined and validated version",
+    "metadata": null,
+    "tags": null,
+    "uploaded_by": "claude-sonnet-4.5",
+    "created_at": "2025-12-21 06:27:13",
+    "updated_at": "2025-12-21 06:27:13",
+    "is_deleted": "0",
+    "deleted_at": null
+},
+{
+    "id": "3",
+    "client_id": "1",
+    "order_id": "1",
+    "filename": "merkur-democracy-crisis-featured.jpg",
+    "original_filename": "democracy_hero_image.jpg",
+    "file_type": "image\/jpeg",
+    "asset_type": "media",
+    "storage_url": "s3:\/\/neptunia-assets\/2025\/01\/merkur-democracy-crisis-featured.jpg",
+    "file_size_bytes": "245678",
+    "version": "1",
+    "is_latest": "1",
+    "checksum": "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8",
+    "title": "Democracy Crisis - Featured Image",
+    "description": null,
+    "metadata": "{\"width\": 1920, \"height\": 1080, \"alt_text\": \"Norwegian parliament building\"}",
+    "tags": null,
+    "uploaded_by": "rune@sragi.org",
+    "created_at": "2025-12-21 06:27:13",
+    "updated_at": "2025-12-21 06:27:13",
+    "is_deleted": "0",
+    "deleted_at": null
+},
+{
+    "id": "4",
+    "client_id": "1",
+    "order_id": "1",
+    "filename": "merkur-democracy-crisis-thumb.jpg",
+    "original_filename": "democracy_thumb.jpg",
+    "file_type": "image\/jpeg",
+    "asset_type": "media",
+    "storage_url": "s3:\/\/neptunia-assets\/2025\/01\/merkur-democracy-crisis-thumb.jpg",
+    "file_size_bytes": "35420",
+    "version": "1",
+    "is_latest": "1",
+    "checksum": "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9",
+    "title": "Democracy Crisis - Thumbnail",
+    "description": null,
+    "metadata": "{\"width\": 400, \"height\": 300, \"alt_text\": \"Norwegian parliament thumbnail\"}",
+    "tags": null,
+    "uploaded_by": "system",
+    "created_at": "2025-12-21 06:27:13",
+    "updated_at": "2025-12-21 06:27:13",
+    "is_deleted": "0",
+    "deleted_at": null
+},
+{
+    "id": "5",
+    "client_id": "1",
+    "order_id": "1",
+    "filename": "merkur-democracy-research-data.json",
+    "original_filename": "research_output.json",
+    "file_type": "application\/json",
+    "asset_type": "dataset",
+    "storage_url": "s3:\/\/neptunia-assets\/2025\/01\/merkur-democracy-research-data.json",
+    "file_size_bytes": "45890",
+    "version": "1",
+    "is_latest": "1",
+    "checksum": "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+    "title": "Democracy Crisis - Research Data",
+    "description": "Grok research output with sources and statistics",
+    "metadata": null,
+    "tags": null,
+    "uploaded_by": "grok",
+    "created_at": "2025-12-21 06:27:13",
+    "updated_at": "2025-12-21 06:27:13",
+    "is_deleted": "0",
+    "deleted_at": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "assets_relationships",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "parent_asset_id": "1",
+    "child_asset_id": "2",
+    "relationship_type": "derived_from",
+    "metadata": "{\"refinement_type\": \"claude_processing\", \"changes\": \"tone, structure, references\"}",
+    "created_at": "2025-12-21 06:27:13"
+},
+{
+    "id": "2",
+    "parent_asset_id": "3",
+    "child_asset_id": "4",
+    "relationship_type": "thumbnail_of",
+    "metadata": "{\"resize_method\": \"crop_center\", \"quality\": 85}",
+    "created_at": "2025-12-21 06:27:13"
+},
+{
+    "id": "3",
+    "parent_asset_id": "5",
+    "child_asset_id": "2",
+    "relationship_type": "source_for",
+    "metadata": "{\"usage\": \"statistics and references extracted from Grok output\"}",
+    "created_at": "2025-12-21 06:27:13"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "assets_versions",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "asset_id": "1",
+    "version_number": "1",
+    "storage_url": "s3:\/\/neptunia-assets\/2025\/01\/merkur-democracy-crisis-draft-v1.md",
+    "file_size_bytes": "15384",
+    "checksum": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+    "change_description": "Initial draft from Claude",
+    "created_by": "claude-sonnet-4.5",
+    "created_at": "2025-12-21 06:27:13"
+},
+{
+    "id": "2",
+    "asset_id": "2",
+    "version_number": "2",
+    "storage_url": "s3:\/\/neptunia-assets\/2025\/01\/merkur-democracy-crisis-final-v2.md",
+    "file_size_bytes": "18720",
+    "checksum": "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7",
+    "change_description": "Refined after Gemini validation feedback",
+    "created_by": "claude-sonnet-4.5",
+    "created_at": "2025-12-21 06:27:13"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_api_keys",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "tenant_id": "1",
+    "key_name": "claude-sonnet-4.5",
+    "key_hash": "$2b$12$PLACEHOLDER_REPLACE_IN_PRODUCTION",
+    "key_type": "internal_agent",
+    "role_slug": "ai_agent",
+    "daily_cost_limit": "100.0000",
+    "hourly_rate_limit": "1000",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23",
+    "last_used_at": null,
+    "expires_at": null
+},
+{
+    "id": "2",
+    "tenant_id": "1",
+    "key_name": "grok",
+    "key_hash": "$2b$12$PLACEHOLDER_REPLACE_IN_PRODUCTION",
+    "key_type": "internal_agent",
+    "role_slug": "ai_agent",
+    "daily_cost_limit": "50.0000",
+    "hourly_rate_limit": "500",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23",
+    "last_used_at": null,
+    "expires_at": null
+},
+{
+    "id": "3",
+    "tenant_id": "1",
+    "key_name": "gemini-pro",
+    "key_hash": "$2b$12$PLACEHOLDER_REPLACE_IN_PRODUCTION",
+    "key_type": "internal_agent",
+    "role_slug": "ai_agent",
+    "daily_cost_limit": "30.0000",
+    "hourly_rate_limit": "500",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23",
+    "last_used_at": null,
+    "expires_at": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_permissions",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "slug": "agents.assign.any",
+    "resource": "agents",
+    "action": "assign",
+    "scope": "any",
+    "description": "Tildele agenter til ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "agents.costs.view",
+    "resource": "agents",
+    "action": "costs.view",
+    "scope": "all",
+    "description": "Se agent-kostnader",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "agents.view.all",
+    "resource": "agents",
+    "action": "view",
+    "scope": "all",
+    "description": "Se alle agenter",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "assets.download.all",
+    "resource": "assets",
+    "action": "download",
+    "scope": "all",
+    "description": "Laste ned alle assets",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "assets.download.published",
+    "resource": "assets",
+    "action": "download",
+    "scope": "published",
+    "description": "Laste ned publiserte assets",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "assets.upload.any",
+    "resource": "assets",
+    "action": "upload",
+    "scope": "any",
+    "description": "Laste opp til alle tenants",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "assets.upload.own",
+    "resource": "assets",
+    "action": "upload",
+    "scope": "own",
+    "description": "Laste opp til eget tenant",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "ledger.view.detailed",
+    "resource": "ledger",
+    "action": "view",
+    "scope": "detailed",
+    "description": "Se alle transaksjoner",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "ledger.view.summary",
+    "resource": "ledger",
+    "action": "view",
+    "scope": "summary",
+    "description": "Se aggregert finansiell data",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.approve.any",
+    "resource": "orders",
+    "action": "approve",
+    "scope": "any",
+    "description": "Kan godkjenne alle ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.approve.own",
+    "resource": "orders",
+    "action": "approve",
+    "scope": "own",
+    "description": "Kan godkjenne egne ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.create.any",
+    "resource": "orders",
+    "action": "create",
+    "scope": "any",
+    "description": "Kan lage ordrer for alle tenants",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.create.own",
+    "resource": "orders",
+    "action": "create",
+    "scope": "own",
+    "description": "Kan lage ordrer for eget tenant",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.read.any",
+    "resource": "orders",
+    "action": "read",
+    "scope": "any",
+    "description": "Kan se alle ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.read.own",
+    "resource": "orders",
+    "action": "read",
+    "scope": "own",
+    "description": "Kan se egne ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.ship.any",
+    "resource": "orders",
+    "action": "ship",
+    "scope": "any",
+    "description": "Kan shippe alle ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.ship.own",
+    "resource": "orders",
+    "action": "ship",
+    "scope": "own",
+    "description": "Kan shippe egne ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.update.any",
+    "resource": "orders",
+    "action": "update",
+    "scope": "any",
+    "description": "Kan redigere alle ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "orders.update.own",
+    "resource": "orders",
+    "action": "update",
+    "scope": "own",
+    "description": "Kan redigere egne ordrer",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "sys.config.edit",
+    "resource": "sys",
+    "action": "config.edit",
+    "scope": "all",
+    "description": "Endre konfigurasjon (level 5 only)",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "sys.config.view",
+    "resource": "sys",
+    "action": "config.view",
+    "scope": "all",
+    "description": "Se system-konfigurasjon",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "sys.events.view",
+    "resource": "sys",
+    "action": "events.view",
+    "scope": "all",
+    "description": "Se core_events audit trail",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "sys.jobs.retry",
+    "resource": "sys",
+    "action": "jobs.retry",
+    "scope": "all",
+    "description": "Kjøre failed jobs på nytt",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "sys.jobs.view",
+    "resource": "sys",
+    "action": "jobs.view",
+    "scope": "all",
+    "description": "Se job queue",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_roles",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "slug": "ai_agent",
+    "name": "AI Agent",
+    "description": "Automated worker (Claude, Grok, Gemini)",
+    "parent_role": null,
+    "level": "0",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "level_1_architect",
+    "name": "Level 1 Architect",
+    "description": "Grunnleggende tilgang - view orders",
+    "parent_role": "level_2_architect",
+    "level": "1",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "level_2_architect",
+    "name": "Level 2 Architect",
+    "description": "Innholdsprodusent - create\/edit orders",
+    "parent_role": "level_3_architect",
+    "level": "2",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "level_3_architect",
+    "name": "Level 3 Architect",
+    "description": "Produksjonsledelse - approve\/ship orders",
+    "parent_role": "level_4_architect",
+    "level": "3",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "level_4_architect",
+    "name": "Level 4 Architect",
+    "description": "Operativ ledelse - admin uten sys.config.edit",
+    "parent_role": "level_5_architect",
+    "level": "4",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "level_5_architect",
+    "name": "Level 5 Architect",
+    "description": "System arkitekt - full tilgang til alt (god mode)",
+    "parent_role": null,
+    "level": "5",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "node_admin",
+    "name": "Node Administrator",
+    "description": "Administrator for én franchise-node",
+    "parent_role": null,
+    "level": "0",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "node_editor",
+    "name": "Node Editor",
+    "description": "Editor for franchise-node",
+    "parent_role": "node_admin",
+    "level": "0",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "node_viewer",
+    "name": "Node Viewer",
+    "description": "Viewer for franchise-node",
+    "parent_role": "node_editor",
+    "level": "0",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "slug": "system_service",
+    "name": "System Service",
+    "description": "External system (Bunny, Stripe)",
+    "parent_role": null,
+    "level": "0",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 07:15:23"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_role_permissions",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "role_slug": "level_5_architect",
+    "permission_slug": "agents.assign.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "2",
+    "role_slug": "level_5_architect",
+    "permission_slug": "agents.costs.view",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "3",
+    "role_slug": "level_5_architect",
+    "permission_slug": "agents.view.all",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "4",
+    "role_slug": "level_5_architect",
+    "permission_slug": "assets.download.all",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "5",
+    "role_slug": "level_5_architect",
+    "permission_slug": "assets.download.published",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "6",
+    "role_slug": "level_5_architect",
+    "permission_slug": "assets.upload.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "7",
+    "role_slug": "level_5_architect",
+    "permission_slug": "assets.upload.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "8",
+    "role_slug": "level_5_architect",
+    "permission_slug": "ledger.view.detailed",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "9",
+    "role_slug": "level_5_architect",
+    "permission_slug": "ledger.view.summary",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "10",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.approve.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "11",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.approve.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "12",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.create.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "13",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.create.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "14",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.read.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "15",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.read.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "16",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.ship.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "17",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.ship.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "18",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.update.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "19",
+    "role_slug": "level_5_architect",
+    "permission_slug": "orders.update.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "20",
+    "role_slug": "level_5_architect",
+    "permission_slug": "sys.config.edit",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "21",
+    "role_slug": "level_5_architect",
+    "permission_slug": "sys.config.view",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "22",
+    "role_slug": "level_5_architect",
+    "permission_slug": "sys.events.view",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "23",
+    "role_slug": "level_5_architect",
+    "permission_slug": "sys.jobs.retry",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "24",
+    "role_slug": "level_5_architect",
+    "permission_slug": "sys.jobs.view",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "32",
+    "role_slug": "level_4_architect",
+    "permission_slug": "agents.assign.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "33",
+    "role_slug": "level_4_architect",
+    "permission_slug": "agents.costs.view",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "34",
+    "role_slug": "level_4_architect",
+    "permission_slug": "agents.view.all",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "35",
+    "role_slug": "level_4_architect",
+    "permission_slug": "assets.download.all",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "36",
+    "role_slug": "level_4_architect",
+    "permission_slug": "assets.download.published",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "37",
+    "role_slug": "level_4_architect",
+    "permission_slug": "assets.upload.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "38",
+    "role_slug": "level_4_architect",
+    "permission_slug": "assets.upload.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "39",
+    "role_slug": "level_4_architect",
+    "permission_slug": "ledger.view.detailed",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "40",
+    "role_slug": "level_4_architect",
+    "permission_slug": "ledger.view.summary",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "41",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.approve.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "42",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.approve.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "43",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.create.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "44",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.create.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "45",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.read.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "46",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.read.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "47",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.ship.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "48",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.ship.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "49",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.update.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "50",
+    "role_slug": "level_4_architect",
+    "permission_slug": "orders.update.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "51",
+    "role_slug": "level_4_architect",
+    "permission_slug": "sys.config.view",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "52",
+    "role_slug": "level_4_architect",
+    "permission_slug": "sys.events.view",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "53",
+    "role_slug": "level_4_architect",
+    "permission_slug": "sys.jobs.retry",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "54",
+    "role_slug": "level_4_architect",
+    "permission_slug": "sys.jobs.view",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "63",
+    "role_slug": "level_3_architect",
+    "permission_slug": "orders.create.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "64",
+    "role_slug": "level_3_architect",
+    "permission_slug": "orders.read.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "65",
+    "role_slug": "level_3_architect",
+    "permission_slug": "orders.update.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "66",
+    "role_slug": "level_3_architect",
+    "permission_slug": "orders.approve.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "67",
+    "role_slug": "level_3_architect",
+    "permission_slug": "orders.ship.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "68",
+    "role_slug": "level_3_architect",
+    "permission_slug": "agents.view.all",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "69",
+    "role_slug": "level_3_architect",
+    "permission_slug": "agents.assign.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "70",
+    "role_slug": "level_3_architect",
+    "permission_slug": "assets.upload.any",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "71",
+    "role_slug": "level_3_architect",
+    "permission_slug": "assets.download.published",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "72",
+    "role_slug": "level_2_architect",
+    "permission_slug": "orders.create.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "73",
+    "role_slug": "level_2_architect",
+    "permission_slug": "orders.read.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "74",
+    "role_slug": "level_2_architect",
+    "permission_slug": "orders.update.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "75",
+    "role_slug": "level_2_architect",
+    "permission_slug": "assets.upload.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "76",
+    "role_slug": "level_2_architect",
+    "permission_slug": "assets.download.published",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "77",
+    "role_slug": "level_1_architect",
+    "permission_slug": "orders.read.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "78",
+    "role_slug": "level_1_architect",
+    "permission_slug": "assets.download.published",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "79",
+    "role_slug": "ai_agent",
+    "permission_slug": "orders.read.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "80",
+    "role_slug": "ai_agent",
+    "permission_slug": "assets.upload.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "81",
+    "role_slug": "node_admin",
+    "permission_slug": "orders.create.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "82",
+    "role_slug": "node_admin",
+    "permission_slug": "orders.read.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "83",
+    "role_slug": "node_admin",
+    "permission_slug": "orders.update.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "84",
+    "role_slug": "node_admin",
+    "permission_slug": "orders.approve.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "85",
+    "role_slug": "node_admin",
+    "permission_slug": "orders.ship.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "86",
+    "role_slug": "node_admin",
+    "permission_slug": "assets.upload.own",
+    "granted_at": "2025-12-21 06:18:41"
+},
+{
+    "id": "87",
+    "role_slug": "node_admin",
+    "permission_slug": "assets.download.published",
+    "granted_at": "2025-12-21 06:18:41"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_security_events",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_sessions",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_tenants",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "actor_id": "1",
+    "slug": "neptunia",
+    "tenant_type": "internal",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 06:18:41",
+    "is_active": "1"
+},
+{
+    "id": "2",
+    "actor_id": "8",
+    "slug": "node-oslo",
+    "tenant_type": "franchise",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 06:18:41",
+    "is_active": "1"
+},
+{
+    "id": "3",
+    "actor_id": "9",
+    "slug": "freelance-jane",
+    "tenant_type": "supplier_portal",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-21 06:18:41",
+    "is_active": "1"
+},
+{
+    "id": "4",
+    "actor_id": "12",
+    "slug": "rasmus-dev",
+    "tenant_type": "internal",
+    "created_at": "2025-12-21 07:50:34",
+    "updated_at": "2025-12-21 07:50:34",
+    "is_active": "1"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_users",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "tenant_id": "1",
+    "email": "rune@neptuniamedia.org",
+    "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$PLACEHOLDER_REPLACE_IN_PRODUCTION",
+    "full_name": "Rune Solberg",
+    "mfa_enabled": "1",
+    "mfa_secret": null,
+    "is_active": "1",
+    "created_at": "2025-12-21 06:18:41",
+    "updated_at": "2025-12-22 03:52:05",
+    "last_login_at": null
+},
+{
+    "id": "2",
+    "tenant_id": "1",
+    "email": "rasmus@neptuniamedia.org",
+    "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$PLACEHOLDER_HASH",
+    "full_name": "Rasmus Børsting Solberg",
+    "mfa_enabled": "0",
+    "mfa_secret": null,
+    "is_active": "1",
+    "created_at": "2025-12-21 07:50:34",
+    "updated_at": "2025-12-22 03:51:51",
+    "last_login_at": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_user_roles",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "user_id": "1",
+    "role_slug": "level_5_architect",
+    "tenant_id": null,
+    "granted_at": "2025-12-21 06:18:41",
+    "granted_by": null
+},
+{
+    "id": "2",
+    "user_id": "2",
+    "role_slug": "level_4_architect",
+    "tenant_id": "1",
+    "granted_at": "2025-12-21 07:50:34",
+    "granted_by": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "core_actors",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "slug": "neptunia",
+    "display_name": "Neptunia Media AS",
+    "legal_name": "Neptunia Media AS",
+    "org_number": "932481375",
+    "actor_type": "organization",
+    "contact_email": "kontakt@sragi.org",
+    "headquarters_country": "NO",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "2",
+    "slug": "anthropic",
+    "display_name": "Anthropic",
+    "legal_name": "Anthropic PBC",
+    "org_number": null,
+    "actor_type": "ai_provider",
+    "contact_email": "support@anthropic.com",
+    "headquarters_country": "US",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "3",
+    "slug": "xai",
+    "display_name": "xAI",
+    "legal_name": "xAI Corp",
+    "org_number": null,
+    "actor_type": "ai_provider",
+    "contact_email": "support@x.ai",
+    "headquarters_country": "US",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "4",
+    "slug": "google-ai",
+    "display_name": "Google AI",
+    "legal_name": "Google LLC",
+    "org_number": null,
+    "actor_type": "ai_provider",
+    "contact_email": "support@google.com",
+    "headquarters_country": "US",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "5",
+    "slug": "bunny-storage",
+    "display_name": "Bunny Storage",
+    "legal_name": "BunnyWay d.o.o.",
+    "org_number": null,
+    "actor_type": "system",
+    "contact_email": "support@bunny.net",
+    "headquarters_country": "SI",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "6",
+    "slug": "stripe",
+    "display_name": "Stripe",
+    "legal_name": "Stripe Inc",
+    "org_number": null,
+    "actor_type": "system",
+    "contact_email": "support@stripe.com",
+    "headquarters_country": "US",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "7",
+    "slug": "one-com",
+    "display_name": "One.com",
+    "legal_name": "One.com A\/S",
+    "org_number": null,
+    "actor_type": "system",
+    "contact_email": "support@one.com",
+    "headquarters_country": "DK",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "8",
+    "slug": "node-oslo",
+    "display_name": "Oslo Kommune Node",
+    "legal_name": "Oslo Kommune",
+    "org_number": "958935420",
+    "actor_type": "organization",
+    "contact_email": "postmottak@oslo.kommune.no",
+    "headquarters_country": "NO",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "9",
+    "slug": "freelance-jane",
+    "display_name": "Jane Doe",
+    "legal_name": null,
+    "org_number": null,
+    "actor_type": "individual",
+    "contact_email": "jane@example.com",
+    "headquarters_country": "NO",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 06:17:20",
+    "is_active": "1"
+},
+{
+    "id": "12",
+    "slug": "rasmus-solberg",
+    "display_name": "Rasmus Børsting Solberg",
+    "legal_name": null,
+    "org_number": null,
+    "actor_type": "individual",
+    "contact_email": "rasmus@neptuniamedia.org",
+    "headquarters_country": null,
+    "created_at": "2025-12-21 07:50:34",
+    "updated_at": "2025-12-22 03:52:36",
+    "is_active": "1"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "core_actor_relationships",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "core_events",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "core_event_items",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "core_event_processing",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "core_event_types",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "code": "order_created",
+    "category": "production",
+    "name": "Ordre opprettet",
+    "description": "En ny produksjonsordre er opprettet i systemet",
+    "triggers_workflow": "1",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "2",
+    "code": "order_validated",
+    "category": "production",
+    "name": "Ordre validert",
+    "description": "Manifest er komplett og ordre er klar for produksjon",
+    "triggers_workflow": "1",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "3",
+    "code": "production_started",
+    "category": "production",
+    "name": "Produksjon startet",
+    "description": "En agent har startet arbeid på ordren",
+    "triggers_workflow": "0",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "4",
+    "code": "production_completed",
+    "category": "production",
+    "name": "Produksjon fullført",
+    "description": "Agent har fullført sitt arbeid",
+    "triggers_workflow": "1",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "5",
+    "code": "asset_created",
+    "category": "production",
+    "name": "Asset opprettet",
+    "description": "En ny fil\/asset er produsert",
+    "triggers_workflow": "0",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "6",
+    "code": "order_shipped",
+    "category": "production",
+    "name": "Ordre levert",
+    "description": "Ordren er levert til kunde\/satellite",
+    "triggers_workflow": "1",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "7",
+    "code": "invoice_created",
+    "category": "financial",
+    "name": "Faktura opprettet",
+    "description": "En ny faktura er generert",
+    "triggers_workflow": "1",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "8",
+    "code": "payment_received",
+    "category": "financial",
+    "name": "Betaling mottatt",
+    "description": "Betaling er registrert i systemet",
+    "triggers_workflow": "1",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "9",
+    "code": "robin_hood_split",
+    "category": "financial",
+    "name": "Robin Hood-fordeling",
+    "description": "Inntekt fordelt 40\/40\/20",
+    "triggers_workflow": "0",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "10",
+    "code": "publishing_queued",
+    "category": "publishing",
+    "name": "Publisering i kø",
+    "description": "Asset er lagt til i publiseringskø",
+    "triggers_workflow": "1",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "11",
+    "code": "publishing_started",
+    "category": "publishing",
+    "name": "Publisering startet",
+    "description": "Publisering til kanal er påbegynt",
+    "triggers_workflow": "0",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "12",
+    "code": "publishing_completed",
+    "category": "publishing",
+    "name": "Publisering fullført",
+    "description": "Asset er publisert til kanal",
+    "triggers_workflow": "1",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "13",
+    "code": "publishing_failed",
+    "category": "publishing",
+    "name": "Publisering feilet",
+    "description": "Publisering feilet - krever manuell handling",
+    "triggers_workflow": "0",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "14",
+    "code": "maintenance_started",
+    "category": "system",
+    "name": "Vedlikehold startet",
+    "description": "Systemvedlikehold er påbegynt",
+    "triggers_workflow": "0",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "15",
+    "code": "maintenance_completed",
+    "category": "system",
+    "name": "Vedlikehold fullført",
+    "description": "Systemvedlikehold er fullført",
+    "triggers_workflow": "0",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:17:20",
+    "updated_at": "2025-12-21 07:15:23"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "erp_contracts",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "erp_customers",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "actor_id": "8",
+    "legal_name": "Oslo Kommune",
+    "org_number": "958935420",
+    "billing_email": null,
+    "billing_address": null,
+    "customer_type": "franchise",
+    "payment_terms": "net_15",
+    "credit_limit": null,
+    "is_active": "1",
+    "created_at": "2025-12-21 07:54:05",
+    "updated_at": "2025-12-21 07:54:05"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "erp_invoices",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "erp_invoice_lines",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "erp_products",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "sku": "PROD-SA",
+    "name": "Strategic Analysis",
+    "description": "Deep dive analysis with AI & Human validation",
+    "category_id": null,
+    "base_price": "25000.00",
+    "pricing_model": "fixed",
+    "is_active": "1",
+    "created_at": "2025-12-21 07:54:05"
+},
+{
+    "id": "2",
+    "sku": "PROD-FRANCHISE",
+    "name": "Franchise License",
+    "description": "Monthly node operation license",
+    "category_id": null,
+    "base_price": "15000.00",
+    "pricing_model": "subscription",
+    "is_active": "1",
+    "created_at": "2025-12-21 07:54:05"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "erp_product_variants",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "product_id": "1",
+    "ncps_recipe_id": null,
+    "variant_name": "Strategic Analysis - Kommune",
+    "sku_suffix": null,
+    "price_modifier_percentage": "120.00",
+    "fixed_price_override": null,
+    "configuration_overrides": null,
+    "is_active": "1"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "erp_suppliers",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "actor_id": "2",
+    "ncps_supplier_id": "1",
+    "legal_name": "Anthropic PBC",
+    "org_number": null,
+    "payment_details": null,
+    "supplier_type": "services",
+    "payment_terms": "net_30",
+    "is_active": "1",
+    "created_at": "2025-12-21 07:54:05"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "io_distribution_log",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "asset_id": "2",
+    "order_id": "1",
+    "channel_type": "wordpress",
+    "channel_name": "Merkur",
+    "external_id": "12345",
+    "external_url": "https:\/\/merkur.news\/democracy-in-crisis",
+    "views": "0",
+    "engagement_score": null,
+    "published_at": "2025-12-21 06:27:33",
+    "last_updated_at": null,
+    "status": "active",
+    "distribution_metadata": "{\"post_type\": \"article\", \"permalink\": \"democracy-in-crisis\", \"published_date\": \"2025-01-15\"}"
+},
+{
+    "id": "2",
+    "asset_id": "2",
+    "order_id": "1",
+    "channel_type": "social_media",
+    "channel_name": "Twitter\/X",
+    "external_id": "1745678901234567890",
+    "external_url": "https:\/\/x.com\/merkurnews\/status\/1745678901234567890",
+    "views": "1250",
+    "engagement_score": "47.5000",
+    "published_at": "2025-12-21 06:27:33",
+    "last_updated_at": null,
+    "status": "active",
+    "distribution_metadata": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "io_exports",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "export_type": "financial_report",
+    "filters": "{\"month\": \"2025-01\", \"client\": \"all\"}",
+    "status": "completed",
+    "filename": "financial_report_2025_01.xlsx",
+    "output_format": "xlsx",
+    "download_url": "s3:\/\/neptunia-exports\/financial_report_2025_01.xlsx?expires=1234567890",
+    "file_size_bytes": "256789",
+    "total_records": null,
+    "processed_records": "0",
+    "started_at": null,
+    "completed_at": null,
+    "expires_at": "0000-00-00 00:00:00",
+    "error_message": null,
+    "requested_by": "rune@sragi.org",
+    "created_at": "2025-12-21 06:27:33"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "io_imports",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "import_type": "customers_csv",
+    "filename": "new_customers_2025_01.csv",
+    "source_url": "s3:\/\/neptunia-imports\/customers_2025_01.csv",
+    "status": "completed",
+    "total_rows": "25",
+    "processed_rows": "0",
+    "successful_rows": "25",
+    "failed_rows": "0",
+    "started_at": null,
+    "completed_at": null,
+    "duration_seconds": null,
+    "validation_errors": null,
+    "rollback_data": null,
+    "can_rollback": "0",
+    "imported_by": "rune@sragi.org",
+    "created_at": "2025-12-21 06:27:33"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "io_publishing_jobs",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "order_id": "1",
+    "asset_id": "2",
+    "satellite_id": "1",
+    "job_type": "wordpress_post",
+    "status": "queued",
+    "queued_at": "2025-12-21 06:27:33",
+    "started_at": null,
+    "completed_at": null,
+    "attempts": "0",
+    "max_attempts": "3",
+    "next_retry_at": null,
+    "external_id": null,
+    "external_url": null,
+    "error_message": null,
+    "error_details": null,
+    "publish_metadata": "{\"post_status\": \"draft\", \"categories\": [\"Democracy\", \"Analysis\"], \"tags\": [\"Norway\", \"Politics\", \"Crisis\"], \"author\": \"Rune Solberg\"}"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "io_webhooks",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "source": "bunny",
+    "event_type": "storage.upload.complete",
+    "signature": "sha256=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+    "signature_verified": "1",
+    "payload": "{\"storage_zone\": \"neptunia-assets\", \"file_path\": \"2025\/01\/merkur-democracy-crisis-final-v2.md\", \"file_size\": 18720, \"timestamp\": \"2025-01-15T14:30:00Z\"}",
+    "headers": null,
+    "status": "processed",
+    "processed_at": null,
+    "error_message": null,
+    "retry_count": "0",
+    "received_at": "2025-12-21 06:27:33",
+    "ip_address": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ledger_accounts",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "account_code": "1000",
+    "account_name": "Bank - Neptunia Main",
+    "account_type": "asset",
+    "parent_account_id": null,
+    "balance": "55000.00",
+    "description": "Hovedkonto Neptunia Media AS",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "2",
+    "account_code": "1100",
+    "account_name": "Accounts Receivable",
+    "account_type": "asset",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Kundefordringer",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "3",
+    "account_code": "1200",
+    "account_name": "Work in Progress",
+    "account_type": "asset",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Ordre under produksjon",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "0",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "4",
+    "account_code": "2000",
+    "account_name": "Accounts Payable",
+    "account_type": "liability",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Leverandørgjeld",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "5",
+    "account_code": "2100",
+    "account_name": "Node Payout Liability",
+    "account_type": "liability",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Skylder franchise-noder (Robin Hood 40%)",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "6",
+    "account_code": "2200",
+    "account_name": "Tax Payable (VAT)",
+    "account_type": "liability",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Skyldig MVA",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "7",
+    "account_code": "3000",
+    "account_name": "Equity - Neptunia",
+    "account_type": "equity",
+    "parent_account_id": null,
+    "balance": "40000.00",
+    "description": "Neptunia egenkapital (Robin Hood 40%)",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "8",
+    "account_code": "3100",
+    "account_name": "Retained Earnings",
+    "account_type": "equity",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Opptjent egenkapital",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "9",
+    "account_code": "4000",
+    "account_name": "Revenue - Subscription",
+    "account_type": "revenue",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Abonnementsinntekt (franchise)",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "10",
+    "account_code": "4100",
+    "account_name": "Revenue - Project Sales",
+    "account_type": "revenue",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Prosjektsalg (eksternt)",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "11",
+    "account_code": "4200",
+    "account_name": "Revenue - Consulting",
+    "account_type": "revenue",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Konsulentinntekt",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "0",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "12",
+    "account_code": "5000",
+    "account_name": "Expense - AI Services",
+    "account_type": "expense",
+    "parent_account_id": null,
+    "balance": "5000.00",
+    "description": "Kostnad AI-agenter (Anthropic, etc)",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "13",
+    "account_code": "5100",
+    "account_name": "Expense - Storage",
+    "account_type": "expense",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Lagringskostnad (Bunny CDN)",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "14",
+    "account_code": "5200",
+    "account_name": "Expense - Freelancers",
+    "account_type": "expense",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Freelance-honorarer",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "0",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "15",
+    "account_code": "5300",
+    "account_name": "Expense - Salaries",
+    "account_type": "expense",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Lønnskostnader",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "0",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "16",
+    "account_code": "9000",
+    "account_name": "Regenerative Fund",
+    "account_type": "regenerative",
+    "parent_account_id": null,
+    "balance": "20000.00",
+    "description": "Regenerativt fond (Robin Hood 20%)",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "17",
+    "account_code": "9100",
+    "account_name": "Regenerative Grants Paid",
+    "account_type": "regenerative",
+    "parent_account_id": null,
+    "balance": "0.00",
+    "description": "Utbetalte regenerative grants",
+    "currency": "NOK",
+    "is_active": "1",
+    "is_system_account": "1",
+    "created_at": "2025-12-21 06:22:56",
+    "updated_at": "2025-12-21 06:22:56"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ledger_entries",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "transaction_id": "1",
+    "account_id": "1",
+    "entry_type": "debit",
+    "amount": "100000.00",
+    "currency": "NOK",
+    "memo": "Payment received from Node Oslo",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "2",
+    "transaction_id": "1",
+    "account_id": "9",
+    "entry_type": "credit",
+    "amount": "100000.00",
+    "currency": "NOK",
+    "memo": "Subscription revenue January 2025",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "3",
+    "transaction_id": "2",
+    "account_id": "7",
+    "entry_type": "debit",
+    "amount": "40000.00",
+    "currency": "NOK",
+    "memo": "Neptunia share (40%)",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "4",
+    "transaction_id": "2",
+    "account_id": "5",
+    "entry_type": "debit",
+    "amount": "40000.00",
+    "currency": "NOK",
+    "memo": "Node Oslo payout (40%)",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "5",
+    "transaction_id": "2",
+    "account_id": "16",
+    "entry_type": "debit",
+    "amount": "20000.00",
+    "currency": "NOK",
+    "memo": "Regenerative fund contribution (20%)",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "6",
+    "transaction_id": "2",
+    "account_id": "9",
+    "entry_type": "credit",
+    "amount": "100000.00",
+    "currency": "NOK",
+    "memo": "Revenue allocated via Robin Hood",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "7",
+    "transaction_id": "3",
+    "account_id": "5",
+    "entry_type": "debit",
+    "amount": "40000.00",
+    "currency": "NOK",
+    "memo": "Liability settled",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "8",
+    "transaction_id": "3",
+    "account_id": "1",
+    "entry_type": "credit",
+    "amount": "40000.00",
+    "currency": "NOK",
+    "memo": "Transfer to Node Oslo",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "9",
+    "transaction_id": "4",
+    "account_id": "12",
+    "entry_type": "debit",
+    "amount": "5000.00",
+    "currency": "NOK",
+    "memo": "Claude API usage - 5M tokens",
+    "created_at": "2025-12-21 06:22:56"
+},
+{
+    "id": "10",
+    "transaction_id": "4",
+    "account_id": "1",
+    "entry_type": "credit",
+    "amount": "5000.00",
+    "currency": "NOK",
+    "memo": "Payment to Anthropic",
+    "created_at": "2025-12-21 06:22:56"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ledger_reconciliation",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "ledger_transactions",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "transaction_id": "TXN-2025-0001",
+    "reference_type": "erp_invoice",
+    "reference_id": "1",
+    "description": "Node Oslo - January 2025 Subscription Payment",
+    "transaction_date": "2025-01-15",
+    "posted_by": "system",
+    "posted_at": "2025-12-21 06:22:56",
+    "is_reversed": "0",
+    "reversed_by_transaction_id": null
+},
+{
+    "id": "2",
+    "transaction_id": "TXN-2025-0002",
+    "reference_type": "revenue_split",
+    "reference_id": null,
+    "description": "Robin Hood Protocol - 40\/40\/20 Split",
+    "transaction_date": "2025-01-15",
+    "posted_by": "system",
+    "posted_at": "2025-12-21 06:22:56",
+    "is_reversed": "0",
+    "reversed_by_transaction_id": null
+},
+{
+    "id": "3",
+    "transaction_id": "TXN-2025-0003",
+    "reference_type": "node_payout",
+    "reference_id": null,
+    "description": "Payout to Node Oslo - January share",
+    "transaction_date": "2025-01-20",
+    "posted_by": "rune@sragi.org",
+    "posted_at": "2025-12-21 06:22:56",
+    "is_reversed": "0",
+    "reversed_by_transaction_id": null
+},
+{
+    "id": "4",
+    "transaction_id": "TXN-2025-0004",
+    "reference_type": "supplier_payment",
+    "reference_id": null,
+    "description": "Anthropic API - January usage",
+    "transaction_date": "2025-01-31",
+    "posted_by": "system",
+    "posted_at": "2025-12-21 06:22:56",
+    "is_reversed": "0",
+    "reversed_by_transaction_id": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_agents",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "supplier_id": "1",
+    "agent_name": "Claude Sonnet 4.5",
+    "agent_slug": "claude-sonnet-4.5",
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-5-20250929",
+    "capabilities": "{\"max_tokens\": 200000, \"supports_vision\": false, \"tools\": [\"web_search\", \"code_execution\"]}",
+    "daily_cost_limit": "100.0000",
+    "primary_role": "raffinering",
+    "status": "active",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "2",
+    "supplier_id": "3",
+    "agent_name": "Grok",
+    "agent_slug": "grok",
+    "provider": "xai",
+    "model": "grok-2",
+    "capabilities": "{\"max_tokens\": 100000, \"supports_vision\": true, \"real_time_data\": true}",
+    "daily_cost_limit": "50.0000",
+    "primary_role": "research",
+    "status": "active",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "3",
+    "supplier_id": "4",
+    "agent_name": "Gemini Pro",
+    "agent_slug": "gemini-pro",
+    "provider": "google",
+    "model": "gemini-1.5-pro",
+    "capabilities": "{\"max_tokens\": 150000, \"supports_vision\": true, \"tools\": [\"code_execution\"]}",
+    "daily_cost_limit": "30.0000",
+    "primary_role": "validation",
+    "status": "active",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_agent_capabilities",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "agent_id": "1",
+    "capability_name": "max_tokens",
+    "capability_value": "200000",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "2",
+    "agent_id": "1",
+    "capability_name": "supports_vision",
+    "capability_value": "false",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "3",
+    "agent_id": "1",
+    "capability_name": "languages",
+    "capability_value": "[\"no\", \"en\", \"sv\", \"da\"]",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_clients",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "actor_id": "1",
+    "tenant_id": "1",
+    "client_type": "internal",
+    "billing_model": "cost_center",
+    "monthly_quota": null,
+    "production_capacity": "100",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "2",
+    "actor_id": "8",
+    "tenant_id": "2",
+    "client_type": "franchise",
+    "billing_model": "subscription",
+    "monthly_quota": "50000.00",
+    "production_capacity": "20",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_cost_tracking",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_executions",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_knowledge_nodes",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_manifests",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_orders",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "order_number": "ORD-2025-0001",
+    "client_id": "1",
+    "satellite_id": "1",
+    "recipe_id": "1",
+    "title": "Merkur: Democracy in Crisis - Editorial Analysis",
+    "description": "Deep dive into democratic challenges in Norway",
+    "priority": "high",
+    "deadline": null,
+    "billing_type": "internal",
+    "estimated_value": "0.00",
+    "status": "draft",
+    "complexity": "0",
+    "estimated_hours": "0.00",
+    "assigned_agent_id": null,
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 07:15:23",
+    "validated_at": null,
+    "started_at": null,
+    "shipped_at": null,
+    "completed_at": null,
+    "created_by": "rune@sragi.org"
+},
+{
+    "id": "2",
+    "order_number": "IT-001",
+    "client_id": "1",
+    "satellite_id": null,
+    "recipe_id": null,
+    "title": "Setup WordPress Development Environment",
+    "description": "Install local WP environment with Bricks Builder and WPCodeBox. Document process.",
+    "priority": "medium",
+    "deadline": null,
+    "billing_type": "internal",
+    "estimated_value": null,
+    "status": "draft",
+    "complexity": "20",
+    "estimated_hours": "4.00",
+    "assigned_agent_id": null,
+    "created_at": "2025-12-21 07:51:36",
+    "updated_at": "2025-12-21 07:51:36",
+    "validated_at": null,
+    "started_at": null,
+    "shipped_at": null,
+    "completed_at": null,
+    "created_by": null
+},
+{
+    "id": "3",
+    "order_number": "IT-002",
+    "client_id": "1",
+    "satellite_id": null,
+    "recipe_id": null,
+    "title": "Implement Database Backup System",
+    "description": "Create automated daily backup script. Test restore. Document.",
+    "priority": "medium",
+    "deadline": null,
+    "billing_type": "internal",
+    "estimated_value": null,
+    "status": "draft",
+    "complexity": "35",
+    "estimated_hours": "6.00",
+    "assigned_agent_id": null,
+    "created_at": "2025-12-21 07:51:36",
+    "updated_at": "2025-12-21 07:51:36",
+    "validated_at": null,
+    "started_at": null,
+    "shipped_at": null,
+    "completed_at": null,
+    "created_by": null
+},
+{
+    "id": "4",
+    "order_number": "IT-003",
+    "client_id": "1",
+    "satellite_id": null,
+    "recipe_id": null,
+    "title": "Setup AI Skills Repository",
+    "description": "Initialize GitHub repo. Create README and folder structure.",
+    "priority": "medium",
+    "deadline": null,
+    "billing_type": "internal",
+    "estimated_value": null,
+    "status": "draft",
+    "complexity": "40",
+    "estimated_hours": "5.00",
+    "assigned_agent_id": null,
+    "created_at": "2025-12-21 07:51:36",
+    "updated_at": "2025-12-21 07:51:36",
+    "validated_at": null,
+    "started_at": null,
+    "shipped_at": null,
+    "completed_at": null,
+    "created_by": null
+},
+{
+    "id": "5",
+    "order_number": "IT-004",
+    "client_id": "1",
+    "satellite_id": null,
+    "recipe_id": null,
+    "title": "Build Production Dashboard",
+    "description": "Create visual dashboard showing active orders and system health.",
+    "priority": "low",
+    "deadline": null,
+    "billing_type": "internal",
+    "estimated_value": null,
+    "status": "draft",
+    "complexity": "60",
+    "estimated_hours": "12.00",
+    "assigned_agent_id": null,
+    "created_at": "2025-12-21 07:51:36",
+    "updated_at": "2025-12-21 07:51:36",
+    "validated_at": null,
+    "started_at": null,
+    "shipped_at": null,
+    "completed_at": null,
+    "created_by": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_order_events",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_quality_gates",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_recipes",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "recipe_name": "Strategic Analysis - Standard",
+    "recipe_slug": "strategic-analysis-standard",
+    "version": "1",
+    "category_id": "5",
+    "definition_json": "{\n        \"steps\": [\n            {\"name\": \"research\", \"agent\": \"grok\", \"estimated_hours\": 3},\n            {\"name\": \"analysis\", \"agent\": \"claude\", \"estimated_hours\": 4},\n            {\"name\": \"validation\", \"agent\": \"gemini\", \"estimated_hours\": 1}\n        ],\n        \"inputs\": [\"client_brief\", \"data_sources\"],\n        \"outputs\": [\"executive_summary\", \"detailed_report\"],\n        \"quality_gates\": [\"structure_check\", \"fact_check\", \"tone_consistency\"]\n    }",
+    "estimated_hours": "8.00",
+    "complexity_score": "65.00",
+    "is_active": "1",
+    "is_template": "1",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_satellites",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "client_id": "1",
+    "satellite_name": "Merkur",
+    "satellite_slug": "merkur",
+    "domain": "merkur.news",
+    "platform_type": "wordpress",
+    "focus": "Democracy & Media Criticism",
+    "kpi_score": null,
+    "last_heartbeat": null,
+    "status": "active",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "2",
+    "client_id": "1",
+    "satellite_name": "Lurevalg",
+    "satellite_slug": "lurevalg",
+    "domain": "lurevalg.no",
+    "platform_type": "wordpress",
+    "focus": "Election Analysis",
+    "kpi_score": null,
+    "last_heartbeat": null,
+    "status": "active",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "3",
+    "client_id": "1",
+    "satellite_name": "4de Statsmakt",
+    "satellite_slug": "4de-statsmakt",
+    "domain": "4de.no",
+    "platform_type": "wordpress",
+    "focus": "Democratic Accountability",
+    "kpi_score": null,
+    "last_heartbeat": null,
+    "status": "active",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ncps_suppliers",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "actor_id": "2",
+    "tenant_id": null,
+    "supplier_category": "ai_agent",
+    "contact_info": null,
+    "cost_per_unit": "0.000015",
+    "unit_type": "tokens",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "2",
+    "actor_id": "5",
+    "tenant_id": null,
+    "supplier_category": "storage",
+    "contact_info": null,
+    "cost_per_unit": "0.010000",
+    "unit_type": "gigabytes",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "3",
+    "actor_id": "3",
+    "tenant_id": null,
+    "supplier_category": "ai_agent",
+    "contact_info": null,
+    "cost_per_unit": "0.000010",
+    "unit_type": "tokens",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+},
+{
+    "id": "4",
+    "actor_id": "4",
+    "tenant_id": null,
+    "supplier_category": "ai_agent",
+    "contact_info": null,
+    "cost_per_unit": "0.000008",
+    "unit_type": "tokens",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:23:21",
+    "updated_at": "2025-12-21 06:23:21"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_config",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "config_key": "storage_base_path",
+    "config_value": "s3:\/\/neptunia-assets\/",
+    "is_encrypted": "0",
+    "config_group": "paths",
+    "description": "Base path for asset storage",
+    "data_type": "string",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "2",
+    "config_key": "temp_upload_path",
+    "config_value": "\/tmp\/uploads\/",
+    "is_encrypted": "0",
+    "config_group": "paths",
+    "description": "Temporary upload directory",
+    "data_type": "string",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "3",
+    "config_key": "max_upload_size_mb",
+    "config_value": "100",
+    "is_encrypted": "0",
+    "config_group": "limits",
+    "description": "Max file upload size (MB)",
+    "data_type": "integer",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "4",
+    "config_key": "max_order_items",
+    "config_value": "50",
+    "is_encrypted": "0",
+    "config_group": "limits",
+    "description": "Max items per order",
+    "data_type": "integer",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "5",
+    "config_key": "session_timeout_hours",
+    "config_value": "8",
+    "is_encrypted": "0",
+    "config_group": "limits",
+    "description": "Session timeout (hours)",
+    "data_type": "integer",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "6",
+    "config_key": "enable_ai_agents",
+    "config_value": "true",
+    "is_encrypted": "0",
+    "config_group": "features",
+    "description": "Allow AI agents to process orders",
+    "data_type": "boolean",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "7",
+    "config_key": "enable_robin_hood",
+    "config_value": "true",
+    "is_encrypted": "0",
+    "config_group": "features",
+    "description": "Enable Robin Hood revenue split",
+    "data_type": "boolean",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "8",
+    "config_key": "enable_franchises",
+    "config_value": "true",
+    "is_encrypted": "0",
+    "config_group": "features",
+    "description": "Allow franchise nodes",
+    "data_type": "boolean",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "9",
+    "config_key": "bunny_api_key",
+    "config_value": "PLACEHOLDER_ENCRYPT_IN_PRODUCTION",
+    "is_encrypted": "0",
+    "config_group": "api_keys",
+    "description": "Bunny CDN API key",
+    "data_type": "string",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+},
+{
+    "id": "10",
+    "config_key": "stripe_api_key",
+    "config_value": "PLACEHOLDER_ENCRYPT_IN_PRODUCTION",
+    "is_encrypted": "0",
+    "config_group": "api_keys",
+    "description": "Stripe API key",
+    "data_type": "string",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "updated_by": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_events",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "event_number": "EVT-2025-3595",
+    "event_type": "health_check_passed",
+    "component": "UPLINK",
+    "severity": "info",
+    "event_data": "{\"message\":\"Secure Connection Established by Cmdr. Rasmus\",\"protocol\":\"uplink_v1\",\"status\":\"verified\"}",
+    "occurred_at": "2025-12-21 19:03:56",
+    "actor_id": "12"
+},
+{
+    "id": "2",
+    "event_number": "EVT-2025-7835",
+    "event_type": "health_check_passed",
+    "component": "UPLINK",
+    "severity": "info",
+    "event_data": "{\"message\":\"Secure Connection Established by Cmdr. Rasmus\",\"protocol\":\"uplink_v1\",\"status\":\"verified\"}",
+    "occurred_at": "2025-12-21 19:10:09",
+    "actor_id": "12"
+},
+{
+    "id": "3",
+    "event_number": "EVT-2025-6283",
+    "event_type": "health_check_passed",
+    "component": "UPLINK",
+    "severity": "info",
+    "event_data": "{\"message\":\"Secure Connection Established by Cmdr. Rasmus\",\"protocol\":\"uplink_v1\",\"status\":\"verified\"}",
+    "occurred_at": "2025-12-21 19:19:26",
+    "actor_id": "12"
+},
+{
+    "id": "4",
+    "event_number": "EVT-2025-3016",
+    "event_type": "health_check_passed",
+    "component": "UPLINK",
+    "severity": "info",
+    "event_data": "{\"message\":\"Secure Connection Established by Cmdr. Rasmus\",\"protocol\":\"uplink_v1\",\"status\":\"verified\"}",
+    "occurred_at": "2025-12-21 19:43:17",
+    "actor_id": "12"
+},
+{
+    "id": "5",
+    "event_number": "EVT-2025-9245",
+    "event_type": "health_check_passed",
+    "component": "UPLINK",
+    "severity": "info",
+    "event_data": "{\"message\":\"Secure Connection Established by Cmdr. Rasmus\",\"protocol\":\"uplink_v1\",\"status\":\"verified\"}",
+    "occurred_at": "2025-12-21 19:44:50",
+    "actor_id": "12"
+},
+{
+    "id": "6",
+    "event_number": "EVT-2025-3298",
+    "event_type": "health_check_passed",
+    "component": "UPLINK",
+    "severity": "info",
+    "event_data": "{\"message\":\"Secure Connection Established by Cmdr. Rasmus\",\"protocol\":\"uplink_v1\",\"status\":\"verified\"}",
+    "occurred_at": "2025-12-21 19:44:51",
+    "actor_id": "12"
+},
+{
+    "id": "7",
+    "event_number": "EVT-2025-2070",
+    "event_type": "health_check_passed",
+    "component": "UPLINK",
+    "severity": "info",
+    "event_data": "{\"message\":\"Secure Connection Established by Cmdr. Rasmus\",\"protocol\":\"uplink_v1\",\"status\":\"verified\"}",
+    "occurred_at": "2025-12-21 19:44:51",
+    "actor_id": "12"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_feature_flags",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "flag_name": "ai_assisted_editing",
+    "is_enabled": "0",
+    "rollout_percentage": "0",
+    "target_tenants": null,
+    "target_roles": null,
+    "description": "AI-powered content suggestions",
+    "owner": "rune@sragi.org",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "expires_at": null
+},
+{
+    "id": "2",
+    "flag_name": "new_dashboard",
+    "is_enabled": "1",
+    "rollout_percentage": "100",
+    "target_tenants": null,
+    "target_roles": null,
+    "description": "New dashboard UI (full rollout)",
+    "owner": "rasmus@sragi.org",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "expires_at": null
+},
+{
+    "id": "3",
+    "flag_name": "franchise_beta",
+    "is_enabled": "1",
+    "rollout_percentage": "50",
+    "target_tenants": null,
+    "target_roles": null,
+    "description": "Franchise features (50% rollout)",
+    "owner": "rune@sragi.org",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31",
+    "expires_at": null
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_heartbeat",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "component_name": "mysql_database",
+    "component_type": "database",
+    "status": "unknown",
+    "response_time_ms": null,
+    "uptime_percentage": null,
+    "last_check_at": "2025-12-21 06:19:31",
+    "last_healthy_at": "0000-00-00 00:00:00",
+    "last_error_at": "0000-00-00 00:00:00",
+    "consecutive_failures": "0",
+    "last_error_message": null,
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+},
+{
+    "id": "2",
+    "component_name": "bunny_storage",
+    "component_type": "storage",
+    "status": "unknown",
+    "response_time_ms": null,
+    "uptime_percentage": null,
+    "last_check_at": "2025-12-21 06:19:31",
+    "last_healthy_at": "0000-00-00 00:00:00",
+    "last_error_at": "0000-00-00 00:00:00",
+    "consecutive_failures": "0",
+    "last_error_message": null,
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+},
+{
+    "id": "3",
+    "component_name": "claude_api",
+    "component_type": "api",
+    "status": "unknown",
+    "response_time_ms": null,
+    "uptime_percentage": null,
+    "last_check_at": "2025-12-21 06:19:31",
+    "last_healthy_at": "0000-00-00 00:00:00",
+    "last_error_at": "0000-00-00 00:00:00",
+    "consecutive_failures": "0",
+    "last_error_message": null,
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+},
+{
+    "id": "4",
+    "component_name": "stripe_api",
+    "component_type": "api",
+    "status": "unknown",
+    "response_time_ms": null,
+    "uptime_percentage": null,
+    "last_check_at": "2025-12-21 06:19:31",
+    "last_healthy_at": "0000-00-00 00:00:00",
+    "last_error_at": "0000-00-00 00:00:00",
+    "consecutive_failures": "0",
+    "last_error_message": null,
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_job_queue",
+    "database": "info_nett_nonds",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_pcm_formulas",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "formula_code": "dynamic_pricing",
+    "formula_name": "Dynamic Pricing Formula",
+    "formula_expression": "base_price * complexity_premium * volume_discount * client_multiplier",
+    "result_type": "price",
+    "variables": "{\"base_price\": 10000, \"complexity_premium\": 1.5, \"volume_discount\": 0.9, \"client_multiplier\": 1.0}",
+    "description": "Beregner dynamisk pris basert på kompleksitet, volum og klienttype",
+    "example_calculation": "10000 * 1.5 * 0.9 * 1.0 = 13500 NOK",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+},
+{
+    "id": "2",
+    "formula_code": "production_time",
+    "formula_name": "Production Time Estimate",
+    "formula_expression": "base_hours * complexity_factor + review_hours",
+    "result_type": "time",
+    "variables": "{\"base_hours\": 10, \"complexity_factor\": 1.3, \"review_hours\": 2}",
+    "description": "Estimerer produksjonstid",
+    "example_calculation": "10 * 1.3 + 2 = 15 hours",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_pcm_rules",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "rule_code": "kommune_requires_lovverk",
+    "rule_name": "Kommune Requires Lovverk Module",
+    "rule_type": "requirement",
+    "rule_logic": "IF client_type = \"kommune\" THEN modules.lovverk.required = true",
+    "error_message": "Kommune-kunder må ha lovverk-modul inkludert",
+    "applies_to_category_id": null,
+    "description": "Lovpålagt for offentlige kunder",
+    "priority": "10",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+},
+{
+    "id": "2",
+    "rule_code": "urgent_max_complexity",
+    "rule_name": "Urgent Orders Have Max Complexity",
+    "rule_type": "validation",
+    "rule_logic": "IF priority = \"urgent\" THEN complexity_score <= 60",
+    "error_message": "Urgent ordrer kan ikke ha complexity_score over 60",
+    "applies_to_category_id": null,
+    "description": "Begrenser kompleksitet for hastesaker",
+    "priority": "5",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_pim_attributes",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "attribute_code": "complexity_score",
+    "attribute_name": "Complexity Score",
+    "data_type": "decimal",
+    "is_required": "1",
+    "validation_rules": "{\"min\": 0, \"max\": 100}",
+    "description": "Calculated complexity (0-100)",
+    "affects_pricing": "1",
+    "affects_production": "1",
+    "attribute_group": "technical",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "2",
+    "attribute_code": "estimated_hours",
+    "attribute_name": "Estimated Hours",
+    "data_type": "decimal",
+    "is_required": "1",
+    "validation_rules": "{\"min\": 1, \"max\": 1000}",
+    "description": "Estimated production time",
+    "affects_pricing": "1",
+    "affects_production": "1",
+    "attribute_group": "technical",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "3",
+    "attribute_code": "quality_level",
+    "attribute_name": "Quality Level",
+    "data_type": "enum",
+    "is_required": "1",
+    "validation_rules": "{\"allowed_values\": [\"Q1\", \"Q2\", \"Q3\", \"Q4\", \"Q5\"]}",
+    "description": "Quality tier",
+    "affects_pricing": "1",
+    "affects_production": "1",
+    "attribute_group": "technical",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "4",
+    "attribute_code": "deadline_days",
+    "attribute_name": "Deadline (days)",
+    "data_type": "integer",
+    "is_required": "0",
+    "validation_rules": "{\"min\": 1, \"max\": 365}",
+    "description": "Days until deadline",
+    "affects_pricing": "0",
+    "affects_production": "1",
+    "attribute_group": "business",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "5",
+    "attribute_code": "priority",
+    "attribute_name": "Priority",
+    "data_type": "enum",
+    "is_required": "1",
+    "validation_rules": "{\"allowed_values\": [\"low\", \"medium\", \"high\", \"urgent\"]}",
+    "description": "Order priority",
+    "affects_pricing": "0",
+    "affects_production": "1",
+    "attribute_group": "business",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "6",
+    "attribute_code": "client_type",
+    "attribute_name": "Client Type",
+    "data_type": "enum",
+    "is_required": "1",
+    "validation_rules": "{\"allowed_values\": [\"kommune\", \"privat\", \"helse\", \"media\"]}",
+    "description": "Type of client",
+    "affects_pricing": "1",
+    "affects_production": "0",
+    "attribute_group": "business",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "7",
+    "attribute_code": "requires_review",
+    "attribute_name": "Requires Review",
+    "data_type": "boolean",
+    "is_required": "1",
+    "validation_rules": null,
+    "description": "Manual review before shipping",
+    "affects_pricing": "0",
+    "affects_production": "1",
+    "attribute_group": "quality",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "8",
+    "attribute_code": "target_audience",
+    "attribute_name": "Target Audience",
+    "data_type": "text",
+    "is_required": "0",
+    "validation_rules": null,
+    "description": "Who is this for?",
+    "affects_pricing": "0",
+    "affects_production": "0",
+    "attribute_group": "quality",
+    "is_active": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_pim_categories",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "parent_id": null,
+    "category_code": "services",
+    "category_name": "Services",
+    "path": "services",
+    "level": "0",
+    "description": null,
+    "icon_url": null,
+    "sort_order": "0",
+    "is_visible": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "2",
+    "parent_id": null,
+    "category_code": "products",
+    "category_name": "Products",
+    "path": "products",
+    "level": "0",
+    "description": null,
+    "icon_url": null,
+    "sort_order": "0",
+    "is_visible": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "3",
+    "parent_id": "1",
+    "category_code": "consulting",
+    "category_name": "Consulting",
+    "path": "services\/consulting",
+    "level": "1",
+    "description": null,
+    "icon_url": null,
+    "sort_order": "0",
+    "is_visible": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "4",
+    "parent_id": "1",
+    "category_code": "content_creation",
+    "category_name": "Content Creation",
+    "path": "services\/content_creation",
+    "level": "1",
+    "description": null,
+    "icon_url": null,
+    "sort_order": "0",
+    "is_visible": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+},
+{
+    "id": "5",
+    "parent_id": "3",
+    "category_code": "strategic_analysis",
+    "category_name": "Strategic Analysis",
+    "path": "services\/consulting\/strategic_analysis",
+    "level": "2",
+    "description": null,
+    "icon_url": null,
+    "sort_order": "0",
+    "is_visible": "1",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 07:15:23"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "sys_scheduled_jobs",
+    "database": "info_nett_nonds",
+    "data": 
+[
+{
+    "id": "1",
+    "job_name": "daily_backup",
+    "schedule": "0 2 * * *",
+    "handler": "BackupService::runDailyBackup",
+    "parameters": null,
+    "is_active": "1",
+    "last_run_at": null,
+    "last_run_status": null,
+    "last_run_duration_seconds": null,
+    "next_run_at": null,
+    "description": "Full database backup kl 02:00",
+    "timeout_seconds": "3600",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+},
+{
+    "id": "2",
+    "job_name": "hourly_cleanup",
+    "schedule": "0 * * * *",
+    "handler": "CleanupService::runHourlyCleanup",
+    "parameters": null,
+    "is_active": "1",
+    "last_run_at": null,
+    "last_run_status": null,
+    "last_run_duration_seconds": null,
+    "next_run_at": null,
+    "description": "Clean temp files hver time",
+    "timeout_seconds": "300",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+},
+{
+    "id": "3",
+    "job_name": "process_events",
+    "schedule": "*\/5 * * * *",
+    "handler": "EventProcessor::processQueue",
+    "parameters": null,
+    "is_active": "1",
+    "last_run_at": null,
+    "last_run_status": null,
+    "last_run_duration_seconds": null,
+    "next_run_at": null,
+    "description": "Process event queue hvert 5. minutt",
+    "timeout_seconds": "600",
+    "created_at": "2025-12-21 06:19:31",
+    "updated_at": "2025-12-21 06:19:31"
+}
+]
+
+}
+]
