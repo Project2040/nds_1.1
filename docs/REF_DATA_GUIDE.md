@@ -2,7 +2,7 @@
 
 **Neptunia DataSystem (NDS) – Guide for utfylling av ref\_-tabeller**
 
-**\---**
+---
 
 **id: REF\_DATA\_GUIDE**
 
@@ -50,7 +50,6 @@
 
 **change\_policy: restricted**
 
-**\---**
 
 ---
 
