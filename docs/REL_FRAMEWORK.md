@@ -1,4 +1,3 @@
-# NDS Relationship Framework (The Matrix)
 ---
 id: REL_FRAMEWORK
 title: NDS Relationship Framework (The Matrix)
@@ -8,6 +7,8 @@ component: rel_links
 status: normative
 last_updated: 2025-12-24
 ---
+
+# NDS Relationship Framework (The Matrix)
 
 **System Version:** NDS v1.2  
 **Component:** `rel_links`
@@ -39,7 +40,7 @@ VALUES
 ('ncps_orders', '105', 'ref_tag_type', 'ai_safety', 'relates_to', 'strong');
 **Version:** 1.0 (NDS v1.2)  
 **Component:** `rel_links`
-
+```
 ## Concept
 Instead of maintaining specific link tables (`orders_has_assets`, `users_has_roles`), NDS uses a single **Universal Link Table** (`rel_links`). This allows for a "Graph-like" structure within MySQL.
 
