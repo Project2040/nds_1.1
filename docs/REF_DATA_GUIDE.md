@@ -333,13 +333,52 @@ Denne guiden er ment å beskytte det språket.
 
 * Gjelder alle ref\_-tabeller i NDS
 
-# **Oversikt ref_ tabeller pr. 27.12.2025**
+---
 
-Her er listen over dine **ref-domener** (prefikser) og tilhørende tabeller, basert på databasen din.
+## **Vedlegg A: NDS Domenekatalog (v1.2)**
 
-Du har ganske riktig et omfattende sett (34 domener funnet), noe som bekrefter at du bygger et operativsystem og ikke bare en applikasjon. Dette gir deg "vokabular" for hele verdikjeden.
+Oversikt over systemets 34 referansedomener og deres ansvarsområder.
+*Oppdatert: 2025-12-27*
 
-Her er oversikten til din `REF_DATA_GUIDE.md`:
+| Domene (Prefiks) | Navn | Beskrivelse | Eksempler |
+| :--- | :--- | :--- | :--- |
+| **`ref_ai_`** | AI & Automasjon | Definerer agenter, modeller og evner. | `agent_type`, `model_family` |
+| **`ref_api_`** | API & Integrasjon | Eksterne koblinger og autentisering. | `integration_type`, `auth_method` |
+| **`ref_arc_`** | Arkiv & Lagring | Livssyklus for data og filer. | `storage_class`, `retention_policy` |
+| **`ref_bi_`** | Business Intelligence | Måltall, enheter og rapportering. | `metric_unit`, `report_type` |
+| **`ref_cms_`** | Content Management | Innholdsstruktur og publisering. | `content_type`, `block_type` |
+| **`ref_com_`** | Kommunikasjon | Språk, tone og meldinger. | `tone_style`, `channel_type` |
+| **`ref_crm_`** | CRM & Relasjoner | Kunder, roller og salgsprosess. | `customer_tier`, `pipeline_stage` |
+| **`ref_dev_`** | Utvikling (DevOps) | Miljøer og teknisk stack. | `environment`, `stack_component` |
+| **`ref_edu_`** | Utdanning (LMS) | Kurs, sertifisering og læring. | `course_type`, `certification_level` |
+| **`ref_evt_`** | Events | Arrangementer og billetter. | `event_category`, `attendance_status` |
+| **`ref_fin_`** | Økonomi | Regnskap, valuta og transaksjoner. | `account_type`, `tax_category` |
+| **`ref_flt_`** | Fleet Management | Multisite og merkevarer. | `brand`, `platform`, `product_line` |
+| **`ref_gam_`** | Gamification | Belønning og progresjon. | `badge_type`, `reward_type` |
+| **`ref_geo_`** | Geografi | Land, regioner og steder. | `country`, `timezone`, `region` |
+| **`ref_hrm_`** | HR & Personell | Ansatte, kontrakter og fravær. | `employment_type`, `contract_type` |
+| **`ref_hw_`** | Hardware | Fysisk utstyr og infrastruktur. | `device_type`, `asset_status` |
+| **`ref_imp_`** | Impact & Bærekraft | Effektmåling og SDG. | `metric_type`, `sdg_goal` |
+| **`ref_inv_`** | Inventar | Lagerstyring og produkter. | `stock_status`, `item_type` |
+| **`ref_ipr_`** | Rettigheter (IPR) | Lisenser og opphavsrett. | `license_type`, `usage_scope` |
+| **`ref_kno_`** | Kunnskap | Fagområder og kildekritikk. | `knowledge_domain`, `confidence_level` |
+| **`ref_leg_`** | Jus & Compliance | Avtaler og lovverk. | `jurisdiction`, `compliance_framework` |
+| **`ref_mkt_`** | Markedsføring | Kampanjer og sporing. | `campaign_type`, `utm_source` |
+| **`ref_nod_`** | Noder | Franchise og nettverksstruktur. | `node_type`, `node_role` |
+| **`ref_org_`** | Organisasjon | Intern struktur og beslutninger. | `department_type`, `decision_type` |
+| **`ref_pr_`** | PR & Presse | Pressemeldinger og målgrupper. | `statement_type`, `audience` |
+| **`ref_prod_`** | Produksjon | Arbeidsflyt og kvalitetssikring. | `workflow_stage`, `quality_gate` |
+| **`ref_rel_`** | Relasjoner | Koblingslogikk i The Matrix. | `relation_type`, `strength_level` |
+| **`ref_sec_`** | Sikkerhet | Tilgang og risikovurdering. | `security_level`, `access_policy` |
+| **`ref_sts_`** | Status (Global) | Generiske tilstander. | `generic_status`, `priority` |
+| **`ref_sup_`** | Support | Kundeservice og saker. | `ticket_status`, `sla_tier` |
+| **`ref_sys_`** | System | Kjernekonfigurasjon. | `feature_flag`, `error_code` |
+| **`ref_tag_`** | Tagging | Taksonomi og merking. | `tag_type`, `namespace` |
+| **`ref_ux_`** | User Experience | Designkomponenter og tema. | `component_type`, `theme_mode` |
+
+---
+
+## **Vedlegg B - Oversikt ref_ tabeller pr. 27.12.2025**
 
 ### **1. AI & Automasjon (ref_ai_*)**
 
@@ -713,4 +752,8 @@ Brukergrensesnitt.
 * `ref_ux_severity`: Alvorlighetsgrad (UX)
 * `ref_ux_test_type`: Testtyper
 * `ref_ux_theme_mode`: Tema (Dark/Light)
+
+
+
+
 
