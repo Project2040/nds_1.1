@@ -12,7 +12,7 @@
 
 **component: ref\_framework**
 
-**version: 1.0**
+**version: 1.1**
 
 **status: normative**
 
@@ -46,7 +46,7 @@
 
 **created: 2025-12-24**
 
-**last\_updated: 2025-12-24**
+**last\_updated: 2025-12-27**
 
 **change\_policy: restricted**
 
